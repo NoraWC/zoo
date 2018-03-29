@@ -12,12 +12,9 @@ public class Tiger {
     public void eat (String food){
         if(food.equals(this.favoriteFood)) {
             System.out.print("YUM!!! "+this.name+" wants more "+food);
+        } else {
+            sleep();
         }
-        sleep();
     }
-    public static void main (String[] args) {
-        Tiger Tigger = new Tiger("Tigger");
-        Tigger.eat("meat");
-        Tigger.eat("bacon");
-    }
+
 }
