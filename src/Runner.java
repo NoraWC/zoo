@@ -5,8 +5,12 @@ public class Runner {
         pooh.eat("fish");
 
         Tiger tigger = new Tiger("Tigger");
-        tigger.eat("meat");
         tigger.eat("bacon");
+        tigger.eat("meat");
+
+        Unicorn moon = new Unicorn("Moon");
+        moon.eat("berries");
+        moon.eat("Marhsmallows");
 
     }
 }
