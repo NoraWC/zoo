@@ -8,9 +8,16 @@ public class Runner {
         tigger.eat("bacon");
         tigger.eat("meat");
 
-        Unicorn moon = new Unicorn("Moon");
-        moon.eat("berries");
-        moon.eat("Marhsmallows");
+        Unicorn rarity = new Unicorn("Rarity");
+        rarity.eat("berries");
+        rarity.eat("Marhsmallows");
 
+        Giraffe gemma = new Giraffe("Gemma");
+        gemma.eat("leaves");
+        gemma.eat("ham");
+
+        Bee stinger = new Bee("Stinger");
+        stinger.eat("pollen");
+        stinger.eat("pinecones");
     }
 }
