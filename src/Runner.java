@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 public class Runner {
     public static void main(String[] args) {
         Bear pooh = new Bear("Pooh");
@@ -19,5 +20,9 @@ public class Runner {
         Bee stinger = new Bee("Stinger");
         stinger.eat("pollen");
         stinger.eat("pinecones");
+
+        ArrayList<Animal> animals = new ArrayList<Animal>(5);
+        Zookeeper zoebot = new Zookeeper("Zoebot");
+        zoebot.feedAnimals(animals,"cookies");
     }
 }
